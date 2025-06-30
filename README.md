@@ -15,17 +15,19 @@ This project detects stress levels from CCTV footage using a trained machine lea
    ```
 
 2. **Run the Notebook:**
+   - Here few changes are required that you have to put cctv camera credentials in proper format
    ```bash
    jupyter notebook "Stress_Detection(CCTV).ipynb"
    ```
 
-3. **Load and Test the Model:**
+4. **Load and Test the Model:**
    - Make sure the `stress_model.h5` is in the same directory.
    - Run the cells in the notebook to see the inference pipeline.
+   - Sometimes .h5 not perform well so try to build on your own.
 
 ## Notes
 - Uses `facenet-pytorch` for face detection.
 - Developed for educational/demo purposes.
 
 ## Author
-Your Name
+KATKAR SURAJ
